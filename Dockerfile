@@ -1,4 +1,4 @@
-FROM chooban/spark_base:latest
+FROM oliverkenyon/spark_base:latest
 
 COPY conf/* /usr/local/spark/conf/
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
